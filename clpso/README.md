@@ -11,5 +11,7 @@ Thanks very much to [Suganthan, P.N.](https://www3.ntu.edu.sg/home/epnsugan/) fo
 ## Run MATLAB Command
 
 ```Matlab
-[gbest,gbestval,fitcount]= CLPSO_new_func('poEllipsoid_',50000,1000000,20,1000,0,2)
+[gbest,gbestval,fitcount]=CLPSO_new_func('poEllipsoid_',50000,1000000,20,1000,0,2)
 ```
+
+NOTE that the MATLAB source code of ```poEllipsoid_``` is available at https://github.com/Evolutionary-Intelligence/comparisons_for_pypop/blob/main/clpso/poEllipsoid_.m.
